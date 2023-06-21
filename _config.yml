@@ -1,7 +1,7 @@
 remote_theme: pages-themes/tactile@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: Meerkat Behavioural Recognition Dataset
-description: An annotated dataset of meerkat behaviours in a zoo enclosure
+title: Meerkat Behaviour Recognition Dataset
+description: An annotated video dataset of meerkat behaviours in a zoo enclosure setting.
 
 

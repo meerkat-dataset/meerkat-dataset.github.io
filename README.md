@@ -47,15 +47,22 @@ The total number of frames for each behaviour of interest, with a percentage of 
 *For more information, and the description of each behaviour see the arXiv publication.*
 
 # Dataset and publication links
-* [arXiv - Coming soon]()
-* [Videos - Coming soon]()
+* <a href="https://arxiv.org/abs/2306.11326">arXiv publication</a>
+* <a href="https://doi.org/10.17608/k6.auckland.23538261.v1">Videos</a>
 * [Annotations](Annotations.zip)
 
 ## Citation
 To cite this dataset please use the following reference.
 
 ```BibTeX
-Coming soon
+@misc{rogers2023meerkat,
+      title={Meerkat Behaviour Recognition Dataset}, 
+      author={Mitchell Rogers and Gaël Gendron and David Arturo Soriano Valdez and Mihailo Azhar and Yang Chen and Shahrokh Heidari and Caleb Perelini and Padriac O'Leary and Kobe Knowles and Izak Tait and Simon Eyre and Michael Witbrock and Patrice Delmas},
+      year={2023},
+      eprint={2306.11326},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ## Acknowledgements
