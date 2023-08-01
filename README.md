@@ -50,13 +50,18 @@ The total number of frames for each behaviour of interest, with a percentage of 
 ## Annotation format
 
 Each row of the annotation file contains the following information:
+
 `Frame number, object type, object ID, behaviour index, occluded, x1, x2, y1, y2`
 
-**Object type:** 0 if the observation is a Meerkat, 1 if it is a pup (the approximate position of the pups was recorded, but they will probably be too small to detect).
-**Object ID:** This is the ID assigned to each individual. If the individual remains between frames, the ID will be present again at that frame number. The ID does not persist between videos.
-**Behaviour index:** Corresponds to the behaviour in the JSON file.
-**Occluded:** 1 if the observation is occluded.
-**x1, x2, y1, y2:** The pixel locations of the two corners of the bounding box.
+* **Object type:** 0 if the observation is a Meerkat, 1 if it is a pup (the approximate position of the pups was recorded, but they will probably be too small to detect).
+
+* **Object ID:** This is the ID assigned to each individual. If the individual remains between frames, the ID will be present again at that frame number. The ID does not persist between videos.
+
+* **Behaviour index:** Corresponds to the behaviour in the JSON file.
+
+* **Occluded:** 1 if the observation is occluded.
+
+* **x1, x2, y1, y2:** The pixel locations of the two corners of the bounding box.
 
 # Dataset and publication links
 * <a href="https://arxiv.org/abs/2306.11326">arXiv publication</a>
