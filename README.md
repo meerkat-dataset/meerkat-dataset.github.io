@@ -18,7 +18,7 @@ Recording animal behaviour is an important step in evaluating the well-being of 
 | <video id="pupsVid" autoplay muted loop width="250"><source src="images/Meerkat_pup.webm" type="video/mp4"></video> | <video id="playfightVid" autoplay muted loop width="250"><source src="images/Meerkats_social.webm" type="video/mp4"></video> |
 | *A meerkat brings a pup over to other meerkats digging, they stop what they are doing to interact with the pup before being alerted to danger and running away.* | *A few meerkats playfight and groom each other.* |
 
-## Behavioural Ethogram
+## Behavioural ethogram
 The meerkats in each frame were labelled as one of 15 behaviours described in the behavioural ethogram:
 <img width="100%" alt="MeerkatEthogram" src="images/Ethogram.png">
 
@@ -45,6 +45,18 @@ The meerkats in each frame were labelled as one of 15 behaviours described in th
 The total number of frames for each behaviour of interest, with a percentage of total frames.
 
 *For more information, and the description of each behaviour see the arXiv publication.*
+
+
+## Annotation format
+
+Each row of the annotation file contains the following information:
+>Frame number, object type, object ID, behaviour index, occluded, x1, x2, y1, y2
+
+**Object type:** 0 if the observation is a Meerkat, 1 if it is a pup (the approximate position of the pups was recorded, but they will probably be too small to detect).
+**Object ID:** This is the ID assigned to each individual. If the individual remains between frames, the ID will be present again at that frame number. The ID does not persist between videos.
+**Behaviour index:** Corresponds to the behaviour in the JSON file.
+**Occluded:** 1 if the observation is occluded.
+**x1, x2, y1, y2:** The pixel locations of the two corners of the bounding box.
 
 # Dataset and publication links
 * <a href="https://arxiv.org/abs/2306.11326">arXiv publication</a>
