@@ -3,5 +3,6 @@ plugins:
 - jekyll-remote-theme
 title: Meerkat Behaviour Recognition Dataset
 description: An annotated video dataset of meerkat behaviours in a zoo enclosure setting.
-
+url: "https://mrog173.github.io/"
+baseurl: "" 
 
