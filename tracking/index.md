@@ -1,6 +1,6 @@
 ---
-title: Impact of Object Detector Accuracy on Tracking-By-Detection Methods: A Case Study with Meerkats
-description: An analysis of the impact of object detector performance on tracking-by-detection multi-object tracking algorithms.
+title: "Impact of Object Detector Accuracy on Tracking-By-Detection Methods: A Case Study with Meerkats"
+description: "An analysis of the impact of object detector performance on tracking-by-detection multi-object tracking algorithms."
 ---
 
 In this repository, we provide a few short clips of scenarios where the four tracking algorithms did not perform well, to highlight challenges with multi-animal tracking.
