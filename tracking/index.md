@@ -11,13 +11,13 @@ Multi-object tracking (MOT) is the task of tracking multiple entities across vid
 ## Extended examples
 
 
-<video id="video1" autoplay muted loop width="100%"><source src="https://github.com/user-attachments/assets/8b3101e2-e1d3-4e51-a989-541a638f0726" type="video/mp4"></video> 
+<video id="video1" controls autoplay muted loop width="100%"><source src="https://github.com/user-attachments/assets/8b3101e2-e1d3-4e51-a989-541a638f0726" type="video/mp4"></video> 
 
-<video id="video2" autoplay muted loop width="100%"><source src="https://github.com/user-attachments/assets/06990c95-0fcb-4453-abf1-2a2527d32caf" type="video/mp4"></video>
+<video id="video2" controls autoplay muted loop width="100%"><source src="https://github.com/user-attachments/assets/06990c95-0fcb-4453-abf1-2a2527d32caf" type="video/mp4"></video>
 
-<video id="video3" autoplay muted loop width="100%"><source src="https://github.com/user-attachments/assets/65a3c001-e9c6-4e13-956a-f37ec9efe8e0" type="video/mp4"></video>
+<video id="video3" controls autoplay muted loop width="100%"><source src="https://github.com/user-attachments/assets/65a3c001-e9c6-4e13-956a-f37ec9efe8e0" type="video/mp4"></video>
 
-<video id="video4" autoplay muted loop width="100%"><source src="https://github.com/user-attachments/assets/605218b1-a7af-4bff-aec5-2f16f1bd0bdc" type="video/mp4"></video>
+<video id="video4" controls autoplay muted loop width="100%"><source src="https://github.com/user-attachments/assets/605218b1-a7af-4bff-aec5-2f16f1bd0bdc" type="video/mp4"></video>
 
 
 ## Citation
